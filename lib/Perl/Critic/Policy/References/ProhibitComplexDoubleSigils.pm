@@ -17,7 +17,7 @@ use List::Util;
 use Perl::Critic::Utils qw{ :severities };
 use base 'Perl::Critic::Policy';
 
-our $VERSION = '0.1';
+our $VERSION = '0.2';
 
 #-----------------------------------------------------------------------------
 
@@ -71,7 +71,7 @@ __END__
 =head1 NAME
 
 Perl::Critic::Policy::References::ProhibitComplexDoubleSigils - allow C<$$foo>
-but no C<$$foo[1]->{dadsdas}->[7]>.
+but not C<$$foo[1]-E<gt>{dadsdas}-E<gt>[7]>.
 
 =head1 DESCRIPTION
 

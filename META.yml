@@ -21,4 +21,4 @@ requires:
   Perl::Critic: '0'
 resources:
   repository: http://code.xenu.tk/repos.cgi/prohibit-complex-double-sigils
-version: '0.1'
+version: '0.2'
